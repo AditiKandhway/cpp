@@ -2,7 +2,7 @@
 #include<climits>
 using namespace std;
 
-int maxi(int a[],int n)
+int maximum(int a[],int n)
 {
 	int largest=INT_MIN;
 	for(int i=0;i<n;i++)
@@ -22,6 +22,6 @@ int main() {
 	{
      cin>>a[i];
 	}
-	cout<<maxi(a,n)<<endl;
+	cout<<maximum(a,n)<<endl;
 	return 0;
 }
