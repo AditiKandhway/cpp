@@ -23,14 +23,14 @@ int main()
 		sum1+=t;
 		c++;
 	}
-	else if(2*k>n)
+	else if((2*k)>n)
 	{
 		flag=0;
 	}
 }
 if(flag==1)
 {
-    cout<<min(sum,sum1);
+    cout<<sum+sum1;
 }
 else
 {

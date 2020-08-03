@@ -2,17 +2,17 @@
 #include<cmath>
 using namespace std;
 int main() {
-	long long n,c=0;
+	int n,c=0;
 	cin>>n;
-    long long temp=n;
+    int temp=n;
 	while(temp)
 	{
 		c++;
 		temp=temp/10;
 	}
-	long long temp1=n;
+	int temp1=n;
 	int rem;
-	long long sum=0;
+	int sum=0;
 	while(temp1)
 	{
       rem=temp1%10;
@@ -21,11 +21,11 @@ int main() {
 	}
 	if(sum==n)
 	{
-		cout<<"true";
+		cout<<"armstrong number";
 	}
 	else
 	{
-		cout<<"false";
+		cout<<"not";
 	}
 	return 0;
 }

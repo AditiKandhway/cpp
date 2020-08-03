@@ -22,21 +22,15 @@ int main()
 				n=n*2;
 				if(n%6==0||n/6==1)
 				{
+					n=n/6;
 					c++;
 				}
 				else
 				{
-                 flag=0;
+                 c=-1;
 				}
 			}
 		}
-		if(flag==1)
-		{
-			cout<<c<<endl;
-		}
-		else
-		{
-			cout<<-1<<endl;
-		}
+		cout<<c<<endl;
 	}
 }
